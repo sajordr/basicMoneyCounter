@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <!--
+	Money Calculator
+	
+	Tally up individual bills and coins to calculate the total amount of money.
+	-->
+    <meta charset = "utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Money Calculator</title>
+    <link rel="stylesheet" href="main.css">
+	<script src="main.js" defer></script>
+</head>
+<body>
+    <article>
+    <h1>Physical Money Calculator</h1>
+    <ul>
+        <li>Input the number of each bill and each coin.</li>
+        <li>This will calculate the total amount of money automatically.</li>
+    </ul>
+    </article>
+    <form>
+        <div id="inputs">
+            <!-- Bills -->
+            <div id="amount">
+                <label for="dollarOne">$1:</label>
+                <input type="text" id="dollarOne">
+            </div>
+            <div id="amount">
+                <label for="dollarTwo">$2:</label>
+                <input type="text" id="dollarTwo">
+            </div>
+            <div id="amount">
+                <label for="dollarFive">$5:</label>
+                <input type="text" id="dollarFive">
+            </div>
+            <div id="amount">
+                <label for="dollarTen">$10:</label>
+                <input type="text" id="dollarTen">
+            </div>
+            <div id="amount">
+                <label for="dollarTwenty">$20:</label>
+                <input type="text" id="dollarTwenty">
+            </div>
+            <div id="amount">
+                <label for="dollarFifty">$50:</label>
+                <input type="text" id="dollarFifty">
+            </div>
+            <div id="amount">
+                <label for="dollarHundred">$100:</label>
+                <input type="text" id="dollarHundred">
+            </div>
+            <!-- Coins -->
+            <br>
+            <div id="amount">
+                <label for="penny">Penny:</label>
+                <input type="text" id="penny">
+            </div>
+            <div id="amount">
+                <label for="nickel">Nickel:</label>
+                <input type="text" id="nickel">
+            </div>
+            <div id="amount">
+                <label for="dime">Dime:</label>
+                <input type="text" id="dime">
+            </div>
+            <div id="amount">
+                <label for="quarter">Quarter:</label>
+                <input type="text" id="quarter">
+            </div>
+            <div id="amount">
+                <label for="halfDollar">Half Dollar:</label>
+                <input type="text" id="halfDollar">
+            </div>
+            <div id="amount">
+                <label for="dollarCoin">Dollar Coin:</label>
+                <input type="text" id="dollarCoin">
+            </div>
+        </div>
+        <button type="button" onclick="">Count</button>
+        <!-- Total -->
+        <br>
+        <p id="total">$-.--</p>
+    </form>
+    <footer>
+        <p>Side project to make counting money without a counting machine easier.</p>
+    </footer>
+<html
